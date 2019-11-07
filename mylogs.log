@@ -1,0 +1,342 @@
+2019-11-06 00:17:14.678  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:17:14.922 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:17:16.851  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:17:16.875 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:17:20.608  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:17:20.614 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:17:21.661  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:17:21.664 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:17:22.547  INFO 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:17:22.597 ERROR 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:17:25.019  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:17:25.023 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:12.344  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:12.434 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:13.862  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:13.875 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:15.346  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:15.359 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:22.520  INFO 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:22.683  WARN 28087 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 00:25:22.684 ERROR 28087 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 00:25:22.793 ERROR 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 00:25:29.186  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:29.189 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:30.331  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:30.335 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:31.186  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:31.199 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:33.198  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:33.204 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:33.950  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:33.956 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:25:34.484  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:25:34.488 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:29:27.910  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:29:28.052  WARN 28087 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 00:29:28.053 ERROR 28087 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 00:29:28.058 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 00:39:13.382  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:39:13.466 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:39:14.749  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:39:14.754 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:39:16.474  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:39:16.481 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:39:17.565  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:39:17.571 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:39:18.467  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:39:18.472 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:39:19.427  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:39:19.434 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:39:20.594  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:39:20.603 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:41:54.143  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:41:54.188 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:41:55.351  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:41:55.359 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:41:56.322  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:41:56.331 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:41:57.210  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:41:57.216 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:41:58.011  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:41:58.018 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:41:58.802  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:41:58.806 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:42.061  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:42.083 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:43.294  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:43.300 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:44.335  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:44.341 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:45.189  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:45.194 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:45.956  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:45.959 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:46.788  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:46.796 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:47.679  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:47.683 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:48.497  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:48.503 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:49.606  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:49.610 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:43:50.286  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:43:50.294 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:00.088  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:00.142 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:02.225  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:02.245 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:03.206  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:03.209 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:04.226  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:04.233 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:05.379  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:05.389 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:06.255  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:06.258 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:07.125  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:07.129 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:07.955  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:07.992 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:08.702  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:08.710 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:09.439  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:09.443 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:10.202  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:10.207 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:10.751  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:10.754 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:38.055  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:38.058 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:39.348  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:39.353 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:40.287  INFO 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:40.293 ERROR 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:41.078  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:41.083 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:41.664  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:41.669 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:54:43.472  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:54:43.482 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:50.788  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:50.805 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:51.277  INFO 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:51.288 ERROR 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:51.693  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:51.697 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:52.147  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:52.154 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:55.763  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:55.768 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:56.210  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:56.213 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:56.602  INFO 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:56.611 ERROR 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:57.010  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:57.012 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:57.427  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:57.434 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:57.892  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:57.897 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 00:55:58.330  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 00:55:58.333 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 01:10:44.897  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m35s653ms).
+2019-11-06 01:34:20.735  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 01:34:20.803 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 01:34:22.292  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 01:34:22.302 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 01:34:23.524  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 01:34:23.534 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 01:34:24.661  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 01:34:24.668 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 01:34:28.105  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 01:34:28.111 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message null
+2019-11-06 01:36:47.408  INFO 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Set user name  : ons
+2019-11-06 01:36:47.618  WARN 28087 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 01:36:47.619 ERROR 28087 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 01:36:47.638 ERROR 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ons Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 01:36:56.026  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:36:56.154  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request success : inessuccessfuly created
+2019-11-06 01:37:08.388  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.CartController      : AddToCart request success : cart successfuly saved
+2019-11-06 01:43:01.176  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:01.239 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 01:43:02.600  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:02.614 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 01:43:03.523  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:03.527 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 01:43:04.463  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:04.466 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 01:43:05.295  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:05.306 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 01:43:05.989  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:05.991 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 01:43:06.703  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:06.708 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 01:43:11.748  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:43:11.861  WARN 28087 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 01:43:11.861 ERROR 28087 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 01:43:11.868 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 01:49:01.691  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:49:01.867  WARN 28087 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 01:49:01.868 ERROR 28087 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 01:49:01.873 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 01:49:02.932  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:49:03.036  WARN 28087 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 01:49:03.037 ERROR 28087 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 01:49:03.076 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 01:49:03.957  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:49:04.056  WARN 28087 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 01:49:04.056 ERROR 28087 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 01:49:04.057 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 01:49:04.804  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:49:04.921  WARN 28087 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 01:49:04.922 ERROR 28087 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 01:49:04.924 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 01:49:05.774  INFO 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 01:49:05.891  WARN 28087 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 01:49:05.892 ERROR 28087 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 01:49:05.894 ERROR 28087 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 02:50:09.525  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24s322ms).
+2019-11-06 03:51:04.989  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25s452ms).
+2019-11-06 04:53:33.025  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s8ms).
+2019-11-06 06:19:43.555  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m40s437ms).
+2019-11-06 08:20:39.014  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s451ms).
+2019-11-06 08:33:48.472  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m9s458ms).
+2019-11-06 09:09:01.033  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.CartController      : AddToCart request success : cart successfuly saved
+2019-11-06 09:10:30.022  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:30.033 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:31.112  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:31.118 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:32.028  INFO 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:32.044 ERROR 28087 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:32.876  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:32.887 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:33.699  INFO 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:33.709 ERROR 28087 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:34.744  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:34.747 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:35.565  INFO 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:35.573 ERROR 28087 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:36.348  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:36.354 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:37.076  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:37.086 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:37.799  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:37.802 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:38.342  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:38.345 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:38.953  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:38.959 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:39.366  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:39.368 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:39.791  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:39.797 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message null
+2019-11-06 09:10:44.867  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 09:10:44.990  WARN 28087 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 09:10:44.990 ERROR 28087 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 09:10:44.993 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 10:17:43.124  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : user
+2019-11-06 10:17:43.178 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user user Exception Message null
+2019-11-06 10:17:44.117  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : user
+2019-11-06 10:17:44.122 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user user Exception Message null
+2019-11-06 10:17:45.510  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : user
+2019-11-06 10:17:45.514 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user user Exception Message null
+2019-11-06 10:17:46.659  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : user
+2019-11-06 10:17:46.661 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user user Exception Message null
+2019-11-06 10:17:54.769  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : user
+2019-11-06 10:17:54.773 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user user Exception Message null
+2019-11-06 10:20:49.023  WARN 28087 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s719ms), soft-evicting connections from pool.
+2019-11-06 11:30:57.228  INFO 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 11:30:57.465  WARN 28087 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 11:30:57.466 ERROR 28087 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 11:30:57.478 ERROR 28087 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 11:30:58.858  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 11:30:58.967  WARN 28087 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 11:30:58.967 ERROR 28087 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 11:30:58.969 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 11:31:00.187  INFO 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 11:31:00.315  WARN 28087 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 11:31:00.315 ERROR 28087 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 11:31:00.317 ERROR 28087 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 11:31:01.292  INFO 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 11:31:01.402  WARN 28087 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 11:31:01.403 ERROR 28087 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 11:31:01.404 ERROR 28087 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 11:31:02.745  INFO 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 11:31:02.868  WARN 28087 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 11:31:02.868 ERROR 28087 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 11:31:02.870 ERROR 28087 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 11:31:03.585  INFO 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 11:31:03.688  WARN 28087 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 11:31:03.688 ERROR 28087 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 11:31:03.689 ERROR 28087 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 11:31:04.385  INFO 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Set user name  : ines
+2019-11-06 11:31:04.497  WARN 28087 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2019-11-06 11:31:04.497 ERROR 28087 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2019-11-06 11:31:04.499 ERROR 28087 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : CreateUser request failure : can not create user ines Exception Message could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 5"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-11-06 12:49:45.578  INFO 28087 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 12:49:45.673  INFO 28087 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 12:49:45.727  INFO 28087 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-06 12:49:45.742  INFO 28087 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-06 12:51:31.963  INFO 37979 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on Aniss-MacBook-Pro.local with PID 37979 (/Users/anis/Documents/Ons_Java_Community/P04-eCommerceApplication/starter_code/target/classes started by anis in /Users/anis/Documents/Ons_Java_Community/P04-eCommerceApplication/starter_code)
+2019-11-06 12:51:31.968  INFO 37979 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2019-11-06 12:51:33.062  INFO 37979 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 12:51:33.168  INFO 37979 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 4 repository interfaces.
+2019-11-06 12:51:33.940  INFO 37979 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e89becf2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-06 12:51:34.352  INFO 37979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-06 12:51:34.419  INFO 37979 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-06 12:51:34.421  INFO 37979 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-11-06 12:51:34.580  INFO 37979 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-06 12:51:34.581  INFO 37979 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2524 ms
+2019-11-06 12:51:34.850  INFO 37979 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-06 12:51:35.135  INFO 37979 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-06 12:51:35.223  INFO 37979 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 12:51:35.357  INFO 37979 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-11-06 12:51:35.360  INFO 37979 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-06 12:51:35.649  INFO 37979 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-06 12:51:35.897  INFO 37979 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-11-06 12:51:37.197  INFO 37979 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 12:51:38.130  WARN 37979 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-06 12:51:38.259  INFO 37979 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69069c50, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e08e2a, org.springframework.security.web.header.HeaderWriterFilter@2f0ab200, org.springframework.web.filter.CorsFilter@4a255535, org.springframework.security.web.authentication.logout.LogoutFilter@435bf834, com.example.demo.security.JWTAuthenticationFilter@3da6fc36, com.example.demo.security.JWTAuthorizationFilter@53484b50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2138579f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2839a536, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ef1a975, org.springframework.security.web.session.SessionManagementFilter@3c2546f3, org.springframework.security.web.access.ExceptionTranslationFilter@325cfee3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78fbb2ea]
+2019-11-06 12:51:38.487  INFO 37979 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 12:51:38.806  INFO 37979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-06 12:51:38.813  INFO 37979 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 7.699 seconds (JVM running for 15.242)
+2019-11-06 16:19:53.812  WARN 37979 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23m48s57ms).
+2019-11-06 16:48:37.746  WARN 37979 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m13s831ms).
+2019-11-06 19:40:05.137  WARN 37979 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h50m25s297ms).
