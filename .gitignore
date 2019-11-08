@@ -1,0 +1,6 @@
+Screenshots/
+target/
+.idea/
+.DS_Store
+*.log
+mylogs.log.2019-11-07.0.gz
